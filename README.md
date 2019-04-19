@@ -1,4 +1,3 @@
-![crab pet](http://i.imgur.com/LbZJgmm.gif) 
 
 # Solutions to Rustlings 🦀❤️
 
