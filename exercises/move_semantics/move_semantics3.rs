@@ -3,7 +3,7 @@
 // (no lines with multiple semicolons necessary!)
 // Scroll down for hints :)
 
-fn main() {
+pub fn main() {
     let vec0 = Vec::new();
 
     let mut vec1 = fill_vec(vec0);
@@ -16,7 +16,7 @@ fn main() {
 
 }
 
-fn fill_vec(vec: Vec<i32>) -> Vec<i32> {
+fn fill_vec(mut vec: Vec<i32>) -> Vec<i32> {
     vec.push(22);
     vec.push(44);
     vec.push(66);
